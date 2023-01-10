@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvan Moes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+</head>
+
+<body class="">
+
+    <nav class="bg-zinc-800 border-gray-200 px-2 sm:px-4 py-2.5">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <a class="text-white text-3xl font-medium">Portfolio.</a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-zinc-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4 border border-zinc-600 rounded-lg bg-zinc-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-zinc-800 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#about"
+                            class="block py-2 pl-3 pr-4 text-white text-xl rounded hover:bg-zinc-800 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects"
+                            class="block py-2 pl-3 pr-4 text-white rounded  text-xl hover:bg-zinc-800 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white rounded  text-xl hover:bg-zinc-800 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/silvan-moes-a36b21254/" target="_blank"
+                            class="block py-2 pl-3 pr-4 text-white rounded  text-xl hover:bg-zinc-800 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">linkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/silvanm17" target="_blank"
+                            class="block py-2 pl-3 pr-4 text-white rounded  text-xl hover:bg-zinc-800 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div
+        class="flex flex-row justify-around  place-items-center mt-1 border-b-2 border-zinc-300 bg-[url('v1016-a-09.jpg')] bg-no-repeat bg-cover bg-center flex-wrap">
+        <div>
+            <p class="text-6xl font-medium text-white p-2 text-zinc-900">Hello,</p>
+            <h1 class="text-6xl font-medium p-2 text-white text-zinc-900">I'm Silvan Moes</h1>
+            <p class="text-6xl p-2  mt-2 font-light text-zinc-900">Frontend Developer</p>
+        </div>
+        <div>
+            <img src="silvan.png">
+        </div>
+    </div>
+
+
+    <div id="projects">
+        <div class="flex justify-center p-4 mt-8">
+            <div class="w-96 h-px mt-4 bg-gray-300"></div>
+            <span class="flex-shrink text-2xl text-gray-500 px-4 font-light">Projects</span>
+            <div class="w-96 h-px mt-4 bg-gray-300"></div>
+        </div>
+    </div>
+
+
+    <div class="flex justify-evenly flex-wrap p-8">
+        <div class="max-w-sm bg-neutral-100 border border-gray-200 rounded-sm shadow-md w-96">
+            <a><img class="p-2 h-3/5 w-full" src="tinder.png" alt="" /></a>
+            <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-zinc-700">Photo tinder</h5>
+                <p class="mb-3 font-normal text-gray-700">Here I wrote a Tinder like web page fully functioning on
+                    Javascript. And styled with Tailwind CSS</p>
+            </div>
+        </div>
+
+        <div class="max-w-sm bg-neutral-100 border border-gray-200 rounded-sm shadow-md w-96">
+            <a><img class="p-2 h-3/5 w-full" src="bootstrap.png" alt="" /></a>
+            <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-zinc-700">Page in bootstrap</h5>
+                <p class="mb-3 font-normal text-gray-700">I wrote this website completely using the webframework
+                    Bootstrap.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="about">
+        <div class="flex justify-center p-4 mt-8">
+            <div class="w-96 h-px mt-4 bg-gray-300"></div>
+            <span class="flex-shrink text-2xl text-gray-500 px-4 font-light">About Me</span>
+            <div class="w-96 h-px mt-4 bg-gray-300"></div>
+        </div>
+    </div>
+
+    <div>
+        <div class="flex justify-center">
+            <p class="w-4/5 text-xl">
+                Hallo! Ik ben Silvan, 17 jaar oud. Ik studeer aan de Bit Academy in Amsterdam als software developer.
+                Ik spreek 2 talen Nederlands en Engels. Ik ben zelf best sociaal en ik sta er altijd voor open om nieuwe
+                mensen te leren kennen. Ik heb een vmbo diploma en ben nu bezig met mijn mbo niveau 4.
+                Ik hou mij de laatste tijd veel bezig met front end maar sta altijd open voor nieuwe wegen. Ik leer
+                graag nieuwe vaardigheden en ben altijd bereid om nieuwe vaardigheden te leren.
+                In mijn vrije tijd doe ik graag aan fitness. Ik ben een echte sportfanaat en ik hou van krachttraining.
+            </p>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="flex justify-center p-4 mt-8">
+            <div class="w-96 h-px mt-4 bg-gray-300"></div>
+            <span class="flex-shrink text-2xl text-gray-500 px-4 font-light">Skills</span>
+            <div class="w-96 h-px mt-4 bg-gray-300"></div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/HTML5_logo_resized.svg" height="100"
+                    width="50" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="100"
+                    width="50" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" height="100"
+                    width="50" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="100"
+                    width="90" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" height="80" width="90"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/React_Native.png" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Solid_white.svg" height="100" width="150"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/HTML5_logo_resized.svg" height="100"
+                    width="50" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="100"
+                    width="50" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" height="100"
+                    width="50" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="100"
+                    width="90" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" height="100"
+                    width="90" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/React_Native.png" height="100" width="250"
+                    alt="" />
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <footer
+        class="p-4 bg-zinc-100 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 border-t-2">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 Silvan Moes.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="#about" class="mr-4 hover:underline md:mr-6 ">About</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline">Contact</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+
+    </script>
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+</body>
+
+</html>
